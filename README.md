@@ -65,9 +65,12 @@ He preguntado:A Claude que me recopile mis dudas y respuestas.
 03/11/2026 Hecho: Hito 3, índices Map, agrupación, Set de valores únicos, closure generador de IDs y funciones de orden superior
 Me ha costado: La lógica interna del .reduce(), para agrupar elementos en un Map, los métodos de map y la sintaxis de las funciones y en las pruebas. 
 He preguntado: A Gemini sobre cómo funcionan los métodos has, set y get en los Map y cómo estructurar las pruebas y fucniones.
-## Uso de IA
+*****
+04/11/2026 Hecho: Regla personal productosDupilcados(), comprobar si un juego ya existe en el stock normalizando el nombre
+Me ha costado: Encontrar el error qu era que habñian funciones fuera de los {} y quedaban solas y sintaxis
+He preguntado: A Gemini por qué mi código daba error de sintaxis, como hacer la normalización con .replaceAll  para quitar tildes y lógica del bucle con of.
 
-Si no la has usado, escribe «No he usado IA».
+## Uso de IA
 
 * Herramienta: Claude
 * Para qué la usé Para el día 27/10/2026. CONSULTÉ 
@@ -108,11 +111,17 @@ Si existe un atajo para escribir los @trows como en JavaDoc y porque Claude uso 
 * Qué cambié yo y por qué: Nada.
 * Qué he aprendido: Necesito seguir prácticando las funciones y su lógica y recordar la sintaxis.
 
-* Herramienta: Claude
-* Para qué la usé: Para el día 04/11/2026. CONSULTÉ el desarrollo del Hito 3 (Maps, Sets, closures y funciones de orden superior), la validación de pruebas.
+* Herramienta: Gemini
+* Para qué la usé: Para el día 03/11/2026. CONSULTÉ el desarrollo del Hito 3 (Maps, Sets, closures y funciones de orden superior), la validación de pruebas.
 * Qué le pedí (resumen): "Dame todos los pasos del hito 3 exactamente como los pide mi profe, vamos a que en cada paso me hagas preguntas para ver si llego a la solución..."
 * Qué cambié yo y por qué: Adapté los nombres y estructuras para que encajaran perfectamente con mi dominio de la tienda de juegos de mesa *The Beholder*
 * Qué he aprendido: A entender el funcionamiento de los Map para índices rápidos y agrupación y sus métodos el uso de Set para eliminar duplicados de forma limpia, y la importancia de estructurar las pruebas, aun me falta afianzar en la sintaxis y estructuras de las funciones y pruebas.
+
+* Herramienta: Gemini
+*Para qué la usé:Para el día 04/112026 Consulté cómo desarrollar y depurar la regla personal de duplicados y estructurar su código y pruebas.
+*Qué le pedí (resumen):"Necesito que me ayudes a estructurar paso a paso la regla de productosDuplicados y sus pruebas para mi tienda *The Beholder*, desglosándolo de forma clara porque con la redacción oficial me lio."
+*Qué cambié yo y por qué:Adaptar las llaves, corregir errores de sintaxis y asegurar que no se saliera de los condicionales clásicos (if) sin ternarios --> cambiar los ? que me daba para los códigos, porque no entiendo aún esa sintaxis y me siento cómoda con if, ya que lo añadía en la funtion normalizarTexto
+*Qué he aprendido:* Aún me falta entender la sintáxis con los bucles for-of, concatenar métodos.
 
 ## Git (opcional)
 
