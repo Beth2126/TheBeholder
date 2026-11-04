@@ -87,3 +87,29 @@ prueba("crearGeneradorId incrementa correctamente", () => {
   igual(siguiente(), 15);
   igual(siguiente(), 16);
 });
+
+// PRUEBAS DE LA REGLA PERSONAL 
+
+// PRUEBAS DE LA REGLA PERSONAL (The Beholder)
+
+prueba("productosDuplicados detecta juegos repetidos e ignorando tildes y mayúsculas", () => {
+  const listaPrueba = [
+    [1, "Catán", "Estrategia", 12, "27,95"],
+    [2, "catan ", "Estrategia", 10, "27,95"], // Duplicado de Catán con tilde y espacios
+    [3, "Dixit", "Cartas", 15, "29,95"]
+  ];
+
+  const resultado = productosDuplicados(listaPrueba);
+  igual(resultado.length, 1);
+  igual(resultado[0], "catan");
+});
+
+prueba("productosDuplicados devuelve array vacío si no hay juegos repetidos", () => {
+  const listaPrueba = [
+    [1, "Catán", "Estrategia", 12, "27,95"],
+    [3, "Dixit", "Cartas", 15, "29,95"]
+  ];
+
+  const resultado = productosDuplicados(listaPrueba);
+  igual(resultado.length, 0);
+});
