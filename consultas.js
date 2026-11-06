@@ -220,4 +220,3 @@ function crearGeneradorId(ultimo) {
 function filtrarPor(lista, condicion) {
   return lista.filter(condicion);
 }
-

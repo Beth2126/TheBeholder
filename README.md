@@ -1,7 +1,7 @@
 # Fase 1 · Núcleo de datos
 
 **Alumno/a: Betzabeth Ruiz.
-Dominio:** Tienda de barrio de juegos de mesa **The Beholder**
+**Dominio:** Tienda de barrio de juegos de mesa **The Beholder**
 
 ## Cómo se abre
 
@@ -69,6 +69,18 @@ He preguntado: A Gemini sobre cómo funcionan los métodos has, set y get en los
 04/11/2026 Hecho: Regla personal productosDupilcados(), comprobar si un juego ya existe en el stock normalizando el nombre
 Me ha costado: Encontrar el error qu era que habñian funciones fuera de los {} y quedaban solas y sintaxis
 He preguntado: A Gemini por qué mi código daba error de sintaxis, como hacer la normalización con .replaceAll  para quitar tildes y lógica del bucle con of.
+*****
+05/11/2026 Hecho: Implementación de las funciones de alta altaProducto() y baja bajaProducto() inmutables, asegurando que devuelven listas nuevas mediante desestructuración y .filter(), validando campos obligatorios y lanzando excepciones con throw.
+*Programación del menú interactivo, combinando bucle while, prompt, console.table, confirm y un bloque robusto try-catch con un diccionario de funciones flecha para garantizar que el programa nunca se rompa ante entradas vacías, cancelaciones o errores de formato.
+*Incidencia con el depurador, durante las pruebas del menú, un error de tipeo al introducir letras en lugar de un número en pedirNumero 
+provocaba un bloqueo del flujo. Se solucionó añadiendo una validación explícita con Number.isNaN() dentro de la función auxiliar y capturándolo con el try-catch.
+Me ha costado: Encontrar el error el cual consulté con Gemini, realizar la estructura de menú sin if anidados.
+He preguntado: A Gemini por qué mi código daba error de sintaxis, como hacer mejor el menu sin if anidados y desarrollo de las funciones del hito 4.
+****
+06/11/2026 Hecho: Hacer las pruebas y readme.
+Me ha costado: En este punto ninguno, ya que ayer ya había depurado el cçodigo con Gemini.
+He preguntado: A Gemini si todo está correcto, sin modificar el código.
+****
 
 ## Uso de IA
 
@@ -122,6 +134,12 @@ Si existe un atajo para escribir los @trows como en JavaDoc y porque Claude uso 
 *Qué le pedí (resumen):"Necesito que me ayudes a estructurar paso a paso la regla de productosDuplicados y sus pruebas para mi tienda *The Beholder*, desglosándolo de forma clara porque con la redacción oficial me lio."
 *Qué cambié yo y por qué:Adaptar las llaves, corregir errores de sintaxis y asegurar que no se saliera de los condicionales clásicos (if) sin ternarios --> cambiar los ? que me daba para los códigos, porque no entiendo aún esa sintaxis y me siento cómoda con if, ya que lo añadía en la funtion normalizarTexto
 *Qué he aprendido:* Aún me falta entender la sintáxis con los bucles for-of, concatenar métodos.
+
+* Herramienta: Gemini
+* Para qué la usé: Para el día 05/11/2026 y 06/11/2026. CONSULTÉ el desarrollo del Hito 4 (Maps, Sets, closures y funciones de orden superior), la validación de pruebas.
+* Qué le pedí (resumen): "Dame todos los pasos del hito 4 exactamente como los pide mi profe, vamos a que en cada paso me hagas preguntas para ver si llego a la solución", apoyo en las estructuras inmutables y estructura de bucles en el menú sin usar if anidados.Tambien depuración del codigo sin cambiar mi código y hacer pruebas.
+* Qué cambié yo y por qué: Cambié los if anidados que insistía en darmelos.
+* Qué he aprendido: A entender el funcionamiento de un menú interactivo, debo seguir avanzando con la lógica y sintáxis.
 
 ## Git (opcional)
 
